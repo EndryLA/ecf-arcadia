@@ -1,0 +1,38 @@
+.button {
+    border:1px solid #7B9C32;
+    background-color: #7B9C32;
+    text-decoration: none;
+    padding:1rem 2rem;
+    cursor:pointer;
+    transition:.3s;
+    font-family:'Alumni Sans',sans-serif;
+    font-size:22px;
+    font-weight:500;
+    height:60px;
+    box-sizing: border-box;
+    width:160px;
+}
+
+.button:hover {
+    background-color: transparent;
+}
+
+a {
+    text-decoration:none;
+    color:unset;
+}
+
+h1 {
+    font-size:2.5rem;
+    text-transform: uppercase;
+    margin:0;
+    color:#4C352A;
+}
+
+.align-center {
+    text-align:center;
+}
+
+.row-reverse {
+    flex-direction:row-reverse;
+}
